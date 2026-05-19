@@ -1,0 +1,15 @@
+{
+    "name": "obsidian-post-sender",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "build": "esbuild main.ts --bundle --external:obsidian --format=cjs --platform=node --target=es2022 --outfile=main.js"
+    },
+    "dependencies": {
+        "obsidian": "^1.5.7"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.0",
+        "typescript": "^5.3.3"
+    }
+}

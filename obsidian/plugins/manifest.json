@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-ai-context-workflow",
+  "name": "AI Context Workflow",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Запрос контекста по POST и передача в Claude",
+  "author": "Nursultan",
+  "isDesktopOnly": false
+}
